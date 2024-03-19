@@ -1,0 +1,1 @@
+![Spotify Logo]([https://github.com/username/repository/blob/master/images/logo.png](https://media.idownloadblog.com/wp-content/uploads/2016/06/Spotify_logo_horizontal_black.jpg)https://media.idownloadblog.com/wp-content/uploads/2016/06/Spotify_logo_horizontal_black.jpg)
