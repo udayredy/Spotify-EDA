@@ -2,29 +2,29 @@
 
 In this notebook, we'll be diving into a list of popular Spotify songs. We'll use Exploratory Data Analysis (EDA) to uncover trends and interesting details within the data of the most popular songs on Spotify (by total streams). By creating clear visualizations, we'll share our findings in an easy-to-understand way.
 
-**<span style="color:#00FF00;">Dataset Content:</span>**
+**Dataset Content:**
 
-The dataset used in this notebook contains a list of the 953 most streamed songs in Spotify. Each track has the next 24 features.
+The dataset used in this notebook contains a list of the 953 most streamed songs in Spotify. Each track has the next 24 features:
 
-Track_name:Name of the song
-Artist's_name:Name of the artist(s) who sing the song.
-Artist_countCount of artists who participaded in the song.
-Released_yearYear when the track was released.
-Released_month:Month when the track was released.
-Released_day:Day when the track was released.
-In_spotify_playlists:Count of playlists in which the track was included on Spotify
-In_deezer_playlists:Count of playlists in which the track was included on Deezer
-In_amazon_playlists:Count of playlists in which the track was included on Amazon Music
-Streams:Total streams of the song.
-In_spotify_charts:Count of Spotify charts in which the track was included in.
-In_deezer_charts:Count of Deezer charts in which the track was included in.
-In_apple_charts:Count of Apple Music charts in which the track was included in.
-In_zhazam_charts:Count of Zhazam charts in which the track was included in.
-btm:Beats Per Minute.
-danceability_%:A value assigned to the song that indicates how suitable it is for dancing
-valence_%:A value assigned to the song that indicates how "positivity" (100%) or negativity (0%) is.
-energy_%:A value indicating the relative level of "energy" in a song.
-acousticness_%:A value assigned to a song that indicates how reliant it is on acoustic instruments
-liveness_%:A value indicating the likelihood a song was recorded in a live setting with an audience.
-speechiness_%:A value indicating the presence of spoken word content.
-instrumentalness_%:A value indicating how much of a song is instrumental.
+- <span style="color:green;">Track_name:</span> Name of the song
+- <span style="color:green;">Artist's_name:</span> Name of the artist(s) who sing the song
+- <span style="color:green;">Artist_count:</span> Count of artists who participated in the song
+- <span style="color:green;">Released_year:</span> Year when the track was released
+- <span style="color:green;">Released_month:</span> Month when the track was released
+- <span style="color:green;">Released_day:</span> Day when the track was released
+- <span style="color:green;">In_spotify_playlists:</span> Count of playlists in which the track was included on Spotify
+- <span style="color:green;">In_deezer_playlists:</span> Count of playlists in which the track was included on Deezer
+- <span style="color:green;">In_amazon_playlists:</span> Count of playlists in which the track was included on Amazon Music
+- <span style="color:green;">Streams:</span> Total streams of the song
+- <span style="color:green;">In_spotify_charts:</span> Count of Spotify charts in which the track was included
+- <span style="color:green;">In_deezer_charts:</span> Count of Deezer charts in which the track was included
+- <span style="color:green;">In_apple_charts:</span> Count of Apple Music charts in which the track was included
+- <span style="color:green;">In_zhazam_charts:</span> Count of Shazam charts in which the track was included
+- <span style="color:green;">btm:</span> Beats Per Minute
+- <span style="color:green;">danceability_%:</span> A value assigned to the song that indicates how suitable it is for dancing
+- <span style="color:green;">valence_%:</span> A value assigned to the song that indicates how "positive" (100%) or negative (0%) it is
+- <span style="color:green;">energy_%:</span> A value indicating the relative level of "energy" in a song
+- <span style="color:green;">acousticness_%:</span> A value assigned to a song that indicates how reliant it is on acoustic instruments
+- <span style="color:green;">liveness_%:</span> A value indicating the likelihood a song was recorded in a live setting with an audience
+- <span style="color:green;">speechiness_%:</span> A value indicating the presence of spoken word content
+- <span style="color:green;">instrumentalness_%:</span> A value indicating how much of a song is instrumental
